@@ -1,0 +1,17 @@
+CREATE TABLE students (
+  Student_ID VARCHAR(10),
+  first_name VARCHAR(50),
+  last_name VARCHAR(50),
+  major VARCHAR(50),
+  Phone VARCHAR(15),
+  GPA DECIMAL(3,1),
+  DOB DATE
+);
+
+INSERT INTO students (Student_ID, first_name, last_name, major, Phone, GPA, DOB)
+VALUES 
+  ('001', 'Sankar', 'Nagarapu', 'EEE', '9398555299', 7.0, '2002-06-24'),
+  ('002', 'Dharani', 'Nagarapu', 'CSE', '9133401412', 9.0, '2004-06-05'),
+  ('003', 'Sindhu', 'Makarapu', 'CSE', '9133505025', 10.0, '2004-06-25'),
+  ('004', 'Sneha', 'kurma', 'CSE', '9548625756', 10.0, '2004-06-27'),
+  ('005', 'meghana', NULL, 'CSE', '9548651652', 10.0, '2004-05-22');
